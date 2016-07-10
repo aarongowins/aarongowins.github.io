@@ -1,0 +1,11 @@
+{
+  "name": "jquery-hashchange",
+  "_release": "640426d6d7",
+  "_resolution": {
+    "type": "commit",
+    "commit": "640426d6d77cd33ed5411effdd0e9918d1ad8df7"
+  },
+  "_source": "ssh://git@stash.atlassian.com:7997/fe/jquery-hashchange.git",
+  "_target": "640426d6d77cd33ed5411effdd0e9918d1ad8df7",
+  "_originalSource": "jquery-hashchange"
+}

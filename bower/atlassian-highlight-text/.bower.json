@@ -1,0 +1,29 @@
+{
+  "name": "atlassian-highlight-text",
+  "version": "0.0.1",
+  "main": [
+    "lib/internal/util/highlight-text.js"
+  ],
+  "dependencies": {
+    "atlassian-regexp": "^0.0.1"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "package.json",
+    "README.md",
+    "karma.conf.js",
+    ".gitignore"
+  ],
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "2d97278aeefea6b4f7a6ae6f148396c333620aef"
+  },
+  "_source": "ssh://git@stash.atlassian.com:7997/fe/atlassian-highlight-text.git",
+  "_target": "0.0.1",
+  "_originalSource": "atlassian-highlight-text"
+}

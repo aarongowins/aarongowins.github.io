@@ -1,0 +1,11 @@
+{
+  "name": "xregexp",
+  "_release": "9d7aefcc04",
+  "_resolution": {
+    "type": "commit",
+    "commit": "9d7aefcc048d7ab5fd120c4d2754ff569e11f0ee"
+  },
+  "_source": "ssh://git@stash.atlassian.com:7997/fe/xregexp.git",
+  "_target": "9d7aefcc048d7ab5fd120c4d2754ff569e11f0ee",
+  "_originalSource": "xregexp"
+}

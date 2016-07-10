@@ -1,0 +1,19 @@
+{
+  "name": "atlassian-functional",
+  "version": "0.1.0",
+  "main": ["lib/internal/util/function.js"],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "doc",
+    "test",
+    "package.json",
+    "README.md",
+    "karma.conf.js",
+    ".gitignore"
+  ],
+  "dependencies": {
+    "underscore": ">=1.5.2"
+  }
+}

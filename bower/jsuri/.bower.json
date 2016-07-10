@@ -1,0 +1,13 @@
+{
+  "name": "jsuri",
+  "version": "1.1.1",
+  "_release": "1.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.1.1",
+    "commit": "30c7100b9144c36fda729d1b03a7d453b8ed1964"
+  },
+  "_source": "ssh://git@stash.atlassian.com:7997/fe/jsuri.git",
+  "_target": "1.1.1",
+  "_originalSource": "jsuri"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "atlassian-navigator",
+  "main": [
+    "lib/internal/util/navigator.js"
+  ],
+  "dependencies": {},
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "doc",
+    "test",
+    "package.json",
+    "README.md",
+    "karma.conf.js",
+    ".gitignore"
+  ],
+  "version": "0.0.2",
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.2",
+    "commit": "f65518cba0bc9aed99d25d4244b4381da490c504"
+  },
+  "_source": "ssh://git@stash.atlassian.com:7997/fe/atlassian-navigator.git",
+  "_target": "0.0.2",
+  "_originalSource": "atlassian-navigator"
+}

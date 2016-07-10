@@ -1,0 +1,13 @@
+{
+  "name": "textarea-caret-position",
+  "version": "2.1.0-AMD",
+  "_release": "2.1.0-AMD",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.1.0-AMD",
+    "commit": "6c43e80b534c217f1a0e8ef2b6626e78d654889c"
+  },
+  "_source": "ssh://git@stash.atlassian.com:7997/fe/textarea-caret-position.git",
+  "_target": "2.1.0-AMD",
+  "_originalSource": "textarea-caret-position"
+}

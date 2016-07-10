@@ -1,0 +1,11 @@
+{
+  "name": "jquery-keygen",
+  "_release": "df05202487",
+  "_resolution": {
+    "type": "commit",
+    "commit": "df05202487d550b5fbd3443562fd527071b7f93a"
+  },
+  "_source": "ssh://git@stash.atlassian.com:7997/fe/jquery-keygen.git",
+  "_target": "df05202487d550b5fbd3443562fd527071b7f93a",
+  "_originalSource": "jquery-keygen"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "bitbucket-global-styles",
+  "version": "1.4.0",
+  "authors": [
+    "Marcin Szczepanski <mszczepanski@atlassian.com>",
+    "Jonathan Poh <jpoh@atlassian.com>"
+  ],
+  "description": "Global LESS imports",
+  "main": "global.less",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

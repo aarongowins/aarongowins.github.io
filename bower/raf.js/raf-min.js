@@ -1,0 +1,1 @@
+(function(a){for(var f=0,d=["webkit","moz"],b=a.requestAnimationFrame,c=a.cancelAnimationFrame,e=d.length;0<=--e&&!b;)b=a[d[e]+"RequestAnimationFrame"],c=a[d[e]+"CancelAnimationFrame"];if(!b||!c)b=function(a){var b=Date.now(),c=Math.max(f+16,b);return setTimeout(function(){a(f=c)},c-b)},c=clearTimeout;a.requestAnimationFrame=b;a.cancelAnimationFrame=c})(window);

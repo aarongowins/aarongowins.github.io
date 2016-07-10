@@ -1,0 +1,29 @@
+{
+  "name": "bitbucket-image-differ",
+  "exports": "bitbucket/internal/image-differ",
+  "main": "./dist/image-differ.js",
+  "version": "1.0.1",
+  "description": "A shared image differ component for Bitbucket.",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "doc",
+    "test",
+    "package.json",
+    "README.md",
+    "karma.conf.js",
+    ".gitignore"
+  ],
+  "dependencies": {
+    "jquery": "1.8.3",
+    "resemblejs": "1.2.0",
+    "aui": "https://bitbucket.org/atlassian/aui-dist.git#^5.7.0",
+    "bitbucket-widget": "^0.1.0",
+    "lodash": "^3.0.0"
+  },
+  "devDependencies": {
+    "bitbucket-soy-functions": "^0.1.3"
+  }
+}

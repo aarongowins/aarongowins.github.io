@@ -1,0 +1,13 @@
+{
+  "name": "backbone-brace",
+  "version": "1.2.0",
+  "_release": "1.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.2.0",
+    "commit": "68f7ced6959a7ea56e4b608e6a810dade33995e7"
+  },
+  "_source": "ssh://git@stash.atlassian.com:7997/fe/backbone-brace.git",
+  "_target": "1.2.0",
+  "_originalSource": "backbone-brace"
+}

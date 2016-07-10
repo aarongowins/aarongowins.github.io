@@ -1,0 +1,11 @@
+{
+  "name": "fd-slider",
+  "_release": "25bad1905a",
+  "_resolution": {
+    "type": "commit",
+    "commit": "25bad1905a586e122a0300fb8697a5dc308b7157"
+  },
+  "_source": "ssh://git@stash.atlassian.com:7997/fe/fd-slider.git",
+  "_target": "25bad1905a586e122a0300fb8697a5dc308b7157",
+  "_originalSource": "fd-slider"
+}

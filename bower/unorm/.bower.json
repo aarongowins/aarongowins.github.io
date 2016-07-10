@@ -1,0 +1,11 @@
+{
+  "name": "unorm",
+  "_release": "63d85f3d8d",
+  "_resolution": {
+    "type": "commit",
+    "commit": "63d85f3d8db32cc55cc79d265d5b4ac4e64b9fc8"
+  },
+  "_source": "ssh://git@stash.atlassian.com:7997/fe/unorm.git",
+  "_target": "63d85f3d8db32cc55cc79d265d5b4ac4e64b9fc8",
+  "_originalSource": "unorm"
+}

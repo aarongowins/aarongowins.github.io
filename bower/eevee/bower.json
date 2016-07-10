@@ -1,0 +1,21 @@
+{
+    "name": "eevee",
+    "main": ["lib/eevee.js"],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "doc",
+        "test",
+        "package.json",
+        "README.md",
+        "karma.conf.js",
+        ".gitignore"
+  ],
+    "dependencies": {
+        "jquery": "1.8.3",
+        "underscore": "1.6.0",
+        "backbone": "1.1.2",
+        "eve-adobe": "0bf13087e079404fac6aec86f2606a780b9a8e27"
+    }
+}

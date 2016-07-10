@@ -1,0 +1,27 @@
+{
+  "name": "atlassian-regexp",
+  "version": "0.0.1",
+  "main": [
+    "lib/internal/util/regexp.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "doc",
+    "test",
+    "package.json",
+    "README.md",
+    "karma.conf.js",
+    ".gitignore"
+  ],
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "7150a572d57cba2026043c89a3e9b4bd367d8a08"
+  },
+  "_source": "ssh://git@stash.atlassian.com:7997/fe/atlassian-regexp.git",
+  "_target": "0.0.1",
+  "_originalSource": "atlassian-regexp"
+}

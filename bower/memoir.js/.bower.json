@@ -1,0 +1,13 @@
+{
+  "name": "memoir.js",
+  "version": "0.1.2",
+  "_release": "0.1.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.2",
+    "commit": "4e737905f1b0711aa563ed13d4142b5aa9ae2100"
+  },
+  "_source": "ssh://git@stash.atlassian.com:7997/fe/memoir.js.git",
+  "_target": "0.1.2",
+  "_originalSource": "memoir.js"
+}

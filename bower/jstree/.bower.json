@@ -1,0 +1,12 @@
+{
+  "name": "jstree",
+  "_release": "1.0-rc3-atlassian-1",
+  "_resolution": {
+    "type": "tag",
+    "tag": "1.0-rc3-atlassian-1",
+    "commit": "a32f9fa2ed87c8bf18c27263a79981255f09703b"
+  },
+  "_source": "ssh://git@stash.atlassian.com:7997/fe/jstree.git",
+  "_target": "1.0-rc3-atlassian-1",
+  "_originalSource": "jstree"
+}

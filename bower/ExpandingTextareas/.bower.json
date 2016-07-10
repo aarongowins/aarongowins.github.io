@@ -1,0 +1,11 @@
+{
+  "name": "ExpandingTextareas",
+  "_release": "0306aa77d3",
+  "_resolution": {
+    "type": "commit",
+    "commit": "0306aa77d30093a5e3f76b0d2ac3485c28d48841"
+  },
+  "_source": "ssh://git@stash.atlassian.com:7997/fe/expandingtextareas.git",
+  "_target": "0306aa77d30093a5e3f76b0d2ac3485c28d48841",
+  "_originalSource": "ExpandingTextareas"
+}

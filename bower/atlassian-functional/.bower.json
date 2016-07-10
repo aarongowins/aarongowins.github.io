@@ -1,0 +1,30 @@
+{
+  "name": "atlassian-functional",
+  "version": "0.1.0",
+  "main": [
+    "lib/internal/util/function.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "doc",
+    "test",
+    "package.json",
+    "README.md",
+    "karma.conf.js",
+    ".gitignore"
+  ],
+  "dependencies": {
+    "underscore": ">=1.5.2"
+  },
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "e41e7ec90d58ffb277b993abc4e9798ebeed53b9"
+  },
+  "_source": "ssh://git@stash.atlassian.com:7997/fe/atlassian-functional.git",
+  "_target": "0.1.0",
+  "_originalSource": "atlassian-functional"
+}
