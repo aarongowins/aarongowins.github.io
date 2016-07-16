@@ -62,14 +62,14 @@
      top: 100px;
  }
  .carousel {
-     background: #B8860B;
+     background-color: #B8860B;
      font-family: "Georgia";
      border-style: solid;
      border-width: 5px;
      border-color: brown;
  }
  .carousel .item {
-     height: 300px;
+     height: 400px;
  }
  .item img {
      position: absolute;
