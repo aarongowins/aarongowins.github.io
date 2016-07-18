@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Submit Form Using AJAX PHP and javascript</title>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <link href="css/style.css" rel="stylesheet">
-    <script src="script.js"></script>
+<title>Insert and Show Records using jQuery Ajax and PHP</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$(function(){
+		//insert record
+		$('#insert').click(function(){
+			var jname = $('#fname').val();
+			var jemail = $('#femail').val();
+ 
+			//syntax - $.post('filename', {data}, function(response){});
+			$.post('data.php',{action: "insert", name:jname, email:jemail},function(res){
+				$('#result').html(res);
+			});		
+		});
+ 
+		//show records
+		$('#show').click(function(){
+			$.post('data.php',{action: "show"},function(res){
+				$('#result').html(res);
+			});		
+		});
+	});
+</script>
 </head>
-
 <body>
-    <div id="mainform">
-        <div class="innerdiv">
-            <h2>Submit Form Using AJAX,PHP and javascript</h2>
-            <!-- Required Div Starts Here -->
-            <form id="form" name="form">
-                <h3>Fill Your Information!</h3>
-                <div>
-                    <label>Name :</label>
-                    <input id="name" type="text">
-                    <label>Email :</label>
-                    <input id="email" type="text">
-                    <label>Password :</label>
-                    <input id="password" type="password">
-                    <label>Contact No :</label>
-                    <input id="contact" type="text">
-                    <input id="submit" onclick="myFunction()" type="button" value="Submit">
-                </div>
-            </form>
-            <div id="clear"></div>
-        </div>
-        <div id="clear"></div>
-    </div>
+<h2>Insert Records into MySQL using Ajax and PHP Tutorial - <a href="http://blog.theonlytutorials.com">blog.theonlytutorials.com</a></h2>
+ 
+Name: <input type="text" id="fname" />
+Email: <input type="text" id="femail" />
+<button id="insert">Insert</button>
+ 
+<h2>Show Last 10 Records</h2>
+<button id="show">Show</button>
+<p>Result:</p>
+<div id="result"></div>
 </body>
-
 </html>
