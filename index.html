@@ -46,12 +46,13 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#"><span class="glyphicon glyphicon-home"
                          aria-hidden="true"></span> Home</a></li>
-                    <li><a href="apps.html"><span class="fa fa-plus-square"
-                         aria-hidden="true"></span> More</a></li>
+                    <li><a href="apps.html"><span class="fa fa-cog"
+                         aria-hidden="true"></span> Apps</a></li>
 
                     <li><a href="https://github.com/aarongowins"><span class="fa fa-github-alt"
                          aria-hidden="true"></span> GitHub</a></li>
-
+                    <li><a href="NIH.html"><span class="fa fa-medkit"
+                         aria-hidden="true"></span> NIH</a></li>
 
                 </ul>
             </div>
@@ -205,6 +206,8 @@
                 </div>
             </div>
         </div>
+
+
 
         <!--
 Old Personal Carousel
@@ -456,7 +459,28 @@ Old Personal Carousel
             </div>
         </div>
 -->
+        <div id="form-messages"></div>
 
+        <form id="ajax-contact" method="post" action="mailer.php">
+            <div class="field">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="field">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="field">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <div class="field">
+                <button type="submit">Send</button>
+            </div>
+        </form>
         <footer class="row-footer">
             <div class="container">
                 <div class="row">
