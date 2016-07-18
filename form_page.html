@@ -1,41 +1,42 @@
-
-i am trying to use ajax submit form but for some reason it doesn't work for me, any suggestions how to fix it.
-
-I'm getting the alert message when I submit but it takes me to another page, what am i doing wrong with ajax request ?
-
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Get Data From a MySQL Database Using jQuery and PHP</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script>
-  $(document).ready(function(){
-    // AJAX forms
-    $("#search_form").submit(function(e){
-      e.preventDefault();
-      //var data = $(this).serialize();
-      var method = $(this).attr("method");
-      var action = $(this).attr("action");
-      var username = $('#username').val(); 
-      $.ajax({
-        url: 'process.php',
-        type: 'POST',
-        data: { name: username },
-        cache: false,
-        success: function(data){
-          $('#results').html(data);
-        }
-      })
-    })
-  });
-  </script>
-  </head>
-  <body>
-   <span>Search by name: </span>
-   <form method="POST" action="process.php" id="search_form">
-  <input type="text" id="username" name="name">
-  <input type="submit" id="submit" value="Search">
-   </form>
-   <div id="results"></div>
- </body>
-  </html>
+    <title>Get Data From a MySQL Database Using jQuery and PHP</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // AJAX forms
+            $(document).on('submit', '#search_form', function() {
+                e.preventDefault();
+                //var data = $(this).serialize();
+                var method = $(this).attr("method");
+                var action = $(this).attr("action");
+                var username = $('#username').val();
+                $.ajax({
+                    url: 'process.php',
+                    type: 'POST',
+                    data: {
+                        name: username
+                    },
+                    cache: false,
+                    success: function(data) {
+                        $('#results').html(data);
+                    }
+                })
+            })
+        });
+
+    </script>
+</head>
+
+<body>
+    <span>Search by name: </span>
+    <form method="POST" action="process.php" id="search_form">
+        <input type="text" id="username" name="name">
+        <input type="submit" id="submit" value="Search">
+    </form>
+    <div id="results"></div>
+</body>
+
+</html>
