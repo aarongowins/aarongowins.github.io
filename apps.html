@@ -42,44 +42,97 @@
                          aria-hidden="true"></span> Home</a></li>
                     <li class="active"><a href="about_us.html"><span class="fa fa-cog"
                          aria-hidden="true"></span> Apps</a></li>
-                    <li><a href="https://github.com/aarongowins"><span class="fa fa-github-alt"
-                         aria-hidden="true"></span> GitHub</a></li>
+
                     <li><a href="NIH.html"><span class="fa fa-medkit"
                          aria-hidden="true"></span> NIH</a></li>
                 </ul>
+
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://github.com/aarongowins"><span class="fa fa-github-alt"
+                         aria-hidden="true"></span> GitHub</a></li>
+                </ul>
+
+
             </div>
         </div>
     </nav>
+    <header class="jumbotron ">
 
+        <!-- Keep it uncluttered -->
+
+        <div class="container ">
+            <div class="row row-header ">
+                <div class="col-xs-12 col-sm-8 ">
+                    <h1>Some Side Projects</h1>
+                    <p style="padding:40px; "></p>
+                    <p>My work at the NIH is not ready for view yet.</p>
+                    <p>Here are a few things I've been working on for fun instead.</p>
+                </div>
+
+                <div class="col-xs-12 col-sm-2 ">
+                    <p style="padding:10px; "></p>
+                    <img src="img/2dee85a copy.jpg " height="250px"> </div>
+
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </header>
 
     <div class="container">
         <div class="row">
+
+
             <div class="col-xs-12 col-sm-10">
                 <div class="row">
                     <ul class="breadcrumb">
                         <li><a href="index.html">Home</a></li>
                         <li class="active"> My Apps</li>
+                        <li><a href="NIH.html">NIH</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-sm-11">
-                    <div>
-                        <h3>My Fun Projects</h3>
-                        <hr>
-                    </div>
-                </div>
+
                 <div id="app" class="row row-content">
                     <div class="col-xs-12 col-sm-6 col-lg-8">
 
-                        <h2>Some Notes</h2>
-                        <p>I am currently at the National Institutes of Health working in cooperation with the Bill and Melinda Gates Foundation, you can read all about it at <a href="http://gowinspages.com/">my website</a>. All our work is either proprietary or in the process of being published, so I can't share it with you. I created this Shiny App to make it easier for my colleagues to spy on each other's publication and collaboration histories, and to provide a way to show off to you.</p>
+                        <h2>PubMed Search Engine</h2>
+                        <p>All my NIH work is either proprietary or in the process of being published, so I can't share it with you. I created this App to make it easier for my colleagues to spy on each other's publication and collaboration histories, and to provide a way to show off to you.</p>
 
                         <div class="row row-content ">
-                            <iframe height=500px; width=1140px; src="https://aarongowins.shinyapps.io/PubMedSearch/"></iframe>
+                            <iframe height=800px; width=940px; src=" https://aarongowins.shinyapps.io/PubMedSearch/"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="poll" class="row row-content">
+                    <div class="col-xs-12 col-sm-6 col-lg-8">
+
+                        <h2>Real-Time Updating Poll</h2>
+                        <p>I think the description below is sufficient...</p>
+
+                        <div class="row row-content ">
+                            <iframe height=800px; width=940px; src="https://aarongowins.shinyapps.io/HTMLui/"></iframe>
                         </div>
                     </div>
                 </div>
                 <div>
                     <p style="padding:40px;"></p>
+                </div>
+
+                <div id="spell" class="row row-content">
+                    <div class="col-xs-12 col-sm-6 col-lg-8">
+
+                        <h2>Next Word in a Sentence</h2>
+                        <p>An n-gram word predictor trained on hundreds of thousands of lines of twitter, news, and blog text. The Coursera Data Science Specialization capstone project.</p>
+
+                        <div class="row row-content ">
+                            <iframe height=300px; width=940px; scrolling="no" src="https://aarongowins.shinyapps.io/CapstonePractice/"></iframe>
+                        </div>
+                    </div>
                 </div>
 
                 <div id="quote" class="row">
@@ -97,8 +150,10 @@
 
             <nav class="hidden-xs col-sm-2" id="myScrollspy">
                 <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="400">
-                    <li><a href="#app">Shiny App</a></li>
-                    <li><a href="#quote">Favorite Quote</a></li>
+                    <li><a href="#app">PubMed App</a></li>
+                    <li><a href="#poll">Shiny Poll</a></li>
+                    <li><a href="#spell">Word Predictor</a></li>
+                    <li><a href="#quote">Quotes</a></li>
                 </ul>
             </nav>
 
@@ -122,8 +177,8 @@
 		              1510 Sicily Dr.<br>
 		              Longmont, CO<br>
 		              80503<br>
-		              <i class="fa fa-phone"></i>: 970 209 8804<br>		 
-		              <i class="fa fa-envelope"></i>: 
+		              <i class="fa fa-phone"></i> 970 209 8804<br>		 
+		              <i class="fa fa-envelope"></i>  
                         <a href="jagowins@gmail.com">jagowins@gmail.com</a>
 		           </address>
                 </div>
