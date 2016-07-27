@@ -75,8 +75,10 @@
      //border-width: 5px;
      //border-color: brown;
  }
- .carousel .item {
-     height: 400px;
+ @media (min-width: 768px) {
+     .carousel .item {
+         height: 400px;
+     }
  }
  .item img {
      position: absolute;
@@ -85,15 +87,19 @@
      height: 300px;
      width: auto;
  }
- #carouselButtons {
-     right: 0px;
-     position: absolute;
-     bottom: 0px;
+ @media (min-width: 768px) {
+     #carouselButtons {
+         right: 0px;
+         position: absolute;
+         bottom: 0px;
+     }
  }
- #myBtn {
-     right: 40px;
-     position: absolute;
-     bottom: 400px;
+ @media (min-width: 768px) {
+     #myBtn {
+         right: 40px;
+         position: absolute;
+         bottom: 400px;
+     }
  }
  #result {
      color: #fff;
