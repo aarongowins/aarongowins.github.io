@@ -29,6 +29,8 @@
  body {
      padding: 50px 0px 0px 0px;
      z-index: 0;
+     background-image: "img/2dee85a copy.jpg";
+     background-color: #cccccc;
  }
  .navbar-inverse {
      background: darkred;
@@ -62,9 +64,9 @@
  .affix {
      top: 100px;
  }
-.carousel-caption{
-    color:darkred;
-}
+ .carousel-caption {
+     color: darkred;
+ }
  .carousel {
      //background-color: #2F4F4F;
      //background-color: #B8860B;
