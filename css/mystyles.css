@@ -67,19 +67,21 @@
  .carousel-caption {
      color: darkred;
  }
- .carousel {
-     //background-color: #2F4F4F;
-     //background-color: #B8860B;
-     font-family: "Georgia";
-     //border-style: solid;
-     //border-width: 5px;
-     //border-color: brown;
+ @media (min-width: 768px) {
+     .carousel {
+         //background-color: #2F4F4F;
+         //background-color: #B8860B;
+         font-family: "Georgia";
+         //border-style: solid;
+         //border-width: 5px;
+         //border-color: brown;
+     }
  }
  @media (min-width: 768px) {
      .carousel .item {
          height: 400px;
      }
- }
+}
  .item img {
      position: absolute;
      top: 0;
