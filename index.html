@@ -28,6 +28,41 @@
 </head>
 
 <body style='font-family: "Georgia"'>
+
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '959180907562163',
+                xfbml: true,
+                version: 'v2.7'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=959180907562163";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -49,6 +84,10 @@
 
                     <li><a href="NIH.html"><span class="fa fa-medkit"
                          aria-hidden="true"></span> NIH</a></li>
+                    <li><a href="facebook.html"><span class="fa facebook"
+                              aria-hidden="true"></span> Facebook Login</a></li>
+
+                    <div class="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="false" data-auto-logout-link="false"></div>
                     <!-- Someday this will work...
                     <li><a href="ajaxjs.html"><span class="fa fa-cog"
                          aria-hidden="true"></span> Form</a></li>
@@ -65,6 +104,9 @@
     <a href="http://gowinspages.com/" target="blank">
         <button type="button" class="btn btn-warning btn-block">Visit Aaron's Personal Website</button>
     </a>
+
+    <div class="fb-like" data-share="true" data-width="450" data-show-faces="true">
+    </div>
 
     <button type="button" class="btn btn-warning btn-sm" id="myBtn">Programming
         <br>Challenge
@@ -253,8 +295,8 @@
 		              1510 Sicily Dr.<br>
 		              Longmont, CO<br>
 		              80503<br>
-		              <i class="fa fa-phone"></i> 970 209 8804<br>		 
-		              <i class="fa fa-envelope"></i>  
+		              <i class="fa fa-phone"></i> 970 209 8804<br>
+		              <i class="fa fa-envelope"></i>
                         <a style="color:white;" href="jagowins@gmail.com"><font color="white">jagowins@gmail.com</font></a>
 		           </address>
                 </div>
@@ -281,7 +323,6 @@
 
     <script>
         app.startup();
-
     </script>
 
     </script>
@@ -302,7 +343,6 @@
                 $("#mycarousel").carousel('cycle');
             });
         });
-
     </script>
 
     <script>
@@ -311,7 +351,6 @@
                 $("#reservationModal").modal();
             });
         });
-
     </script>
 
     <script>
@@ -320,14 +359,12 @@
                 $("#loginModal").modal();
             });
         });
-
     </script>
 
     <script>
         $(document).ready(function() {
             $('[data-toggle="tooltip"]').tooltip();
         });
-
     </script>
 </body>
 
